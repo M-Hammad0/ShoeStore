@@ -19,9 +19,9 @@ function Navbar({ cart }) {
       >
         <Toolbar>
           <img
-            style={{ width: "4rem" }}
-            src="https://image.flaticon.com/icons/svg/732/732084.svg"
-            alt="niki-logo"
+            style={{ width: "3rem" }}
+            src="https://image.flaticon.com/icons/svg/3134/3134952.svg"
+            alt=""
           />
           <div style={{marginLeft: "auto", display: "flex"}}>
           <Typography variant="h6">

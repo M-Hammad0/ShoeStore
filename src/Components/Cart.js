@@ -9,10 +9,24 @@ function Cart({ cart, click }) {
   return (
     <div className="row cart-container">
       <div className="col-lg-8">
-        <p>name</p>
-        <p>email</p>
-        <p>number</p>
-        <p>address</p>
+      <form>
+      <div className="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control"  placeholder="Enter Name" />
+        </div>
+        <div className="form-group">
+        <label>Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+        </div>
+        <div className="form-group">
+        <label>Contact</label>
+        <input type="text" class="form-control"  placeholder="Enter Contact" />
+        </div>
+        <div className="form-group">
+        <label>Address</label>
+        <input type="text" class="form-control"  placeholder="Enter Address" />
+        </div>
+      </form>
       </div>
       <div
         style={{ border: "1px solid rgba(0, 0, 0, 0.12)", paddingBottom: "3%", height: "30%"}}
